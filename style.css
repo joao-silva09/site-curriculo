@@ -1,0 +1,80 @@
+* {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    padding: 0;
+}
+
+body {
+    margin: 0;
+}
+
+header {
+    background-color: rgb(39, 39, 39);
+    text-align: center;
+    padding: 10px;
+    margin: 0;
+}
+
+.title {
+    color: white;
+}
+
+.navigation {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+}
+
+.navigation a {
+    color: white;
+    margin-right: 10px;
+    text-decoration: none;
+}
+
+.navigation a:hover {
+    color: burlywood;
+
+}
+
+main h2 {
+    text-align: center;
+}
+
+#apresentacao .container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+#apresentacao img {
+    width: 50%;
+}
+
+#habilidades {
+    padding: 50px;
+}
+
+#habilidades ul {
+}
+
+#experiencias {
+    padding: 50px;
+}
+
+#contato {
+    background-color: rgb(39, 39, 39);
+    color: white;
+    padding: 10px;
+}
+
+.footer-links ul {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+}
+
+.footer-links li {
+    margin: 5px;
+}
+
+.footer-links img {
+    width: 30px;
+}
